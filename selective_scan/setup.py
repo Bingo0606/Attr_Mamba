@@ -1,5 +1,3 @@
-# Modified by $@#Anonymous#@$ #20240123
-# Copyright (c) 2023, Albert Gu, Tri Dao.
 import sys
 import warnings
 import os
