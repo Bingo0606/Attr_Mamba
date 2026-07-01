@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public attribute-anchor input",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["file_id", "attributes"],
+    "additionalProperties": false,
+    "properties": {
+      "file_id": {
+        "type": ["string", "integer"]
+      },
+      "attributes": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": false,
+        "properties": {
+          "anatomical_location": {"type": "string"},
+          "relative_position": {"type": "string"},
+          "size": {"type": "string"},
+          "shape": {"type": "string"},
+          "boundary": {"type": "string"},
+          "texture": {"type": "string"},
+          "density": {"type": "string"},
+          "appearance": {"type": "string"}
+        }
+      }
+    }
+  }
+}
+

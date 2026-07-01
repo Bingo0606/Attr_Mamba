@@ -1,0 +1,25 @@
+[
+  {
+    "file_id": "example-liver-001",
+    "attributes": {
+      "anatomical_location": "superior hepatic region",
+      "relative_position": "leftmost",
+      "size": "small",
+      "shape": "round",
+      "boundary": "well-circumscribed",
+      "texture": "heterogeneous",
+      "density": "hypodense"
+    }
+  },
+  {
+    "file_id": "example-lung-001",
+    "attributes": {
+      "anatomical_location": "lower-right pulmonary region",
+      "size": "medium",
+      "shape": "irregular",
+      "boundary": "ill-defined",
+      "appearance": "solid-appearing"
+    }
+  }
+]
+
