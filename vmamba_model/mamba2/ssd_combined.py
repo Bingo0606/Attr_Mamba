@@ -1,8 +1,3 @@
-# Copyright (c) 2024, Tri Dao, Albert Gu.
-
-"""We want triton==2.1.0 or 2.2.0 for this
-"""
-
 from typing import Optional
 
 import math
