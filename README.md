@@ -148,13 +148,15 @@ QaTa-COV19 and MosMedData+ use `--image-size 224`. Evaluation thresholds raw sig
 
 <p align="center"><b>Stage-wise heatmaps.</b> Spatial responses evolve from broad candidate regions to concentrated activations around referred lesions.</p>
 
-## Accuracy-Efficiency Trade-off
+## Computational Efficiency
 
 <p align="center">
-  <img src="assets/figures/efficiency-tradeoff-qata-cov19.png" width="62%" alt="Accuracy-efficiency comparison on QaTa-COV19">
+  <img src="assets/figures/efficiency-tradeoff-qata-cov19.png" width="62%" alt="Efficiency comparison on QaTa-COV19">
 </p>
 
-On QaTa-COV19 at 224 x 224, Attr-Mamba requires 32.97 GFLOPs and reaches 26.88 FPS. The marker color denotes mIoU. All throughput and computational-cost measurements use the same hardware, batch size, and timing protocol for the compared implementations.
+On QaTa-COV19 at 224 x 224, Attr-Mamba requires 32.97 GFLOPs and reaches 26.88 FPS. All throughput and computational-cost measurements use the same hardware, batch size, and timing protocol for the compared implementations.
+
+Recreate the figure with `python tools/plot_efficiency_tradeoff.py` (Matplotlib required).
 
 ## Attribute-Specific Prompt Intervention
 
