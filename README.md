@@ -151,7 +151,7 @@ QaTa-COV19 and MosMedData+ use `--image-size 224`. Evaluation thresholds raw sig
 ## Computational Efficiency
 
 <p align="center">
-  <img src="assets/figures/efficiency-tradeoff-qata-cov19.png" width="62%" alt="Efficiency comparison on QaTa-COV19">
+  <img src="assets/figures/efficiency_tradeoff_qata.png" width="62%" alt="Efficiency comparison on QaTa-COV19">
 </p>
 
 On QaTa-COV19 at 224 x 224, Attr-Mamba requires 32.97 GFLOPs and reaches 26.88 FPS. All throughput and computational-cost measurements use the same hardware, batch size, and timing protocol for the compared implementations.
