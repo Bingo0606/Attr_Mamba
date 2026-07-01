@@ -112,7 +112,6 @@ def make_figure(output_dir: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     stem = output_dir / "efficiency-tradeoff-qata-cov19"
     fig.savefig(stem.with_suffix(".pdf"), bbox_inches="tight", pad_inches=0.025)
-    fig.savefig(stem.with_suffix(".svg"), bbox_inches="tight", pad_inches=0.025)
     fig.savefig(
         stem.with_suffix(".png"),
         dpi=600,
