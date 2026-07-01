@@ -1,9 +1,3 @@
-# Copyright (c) 2024, Albert Gu and Tri Dao.
-"""Minimal implementation of SSD.
-
-This is the same as Listing 1 from the paper.
-"""
-
 import torch
 import torch.nn.functional as F
 from einops import rearrange, repeat
